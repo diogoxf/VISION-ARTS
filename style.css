@@ -1,0 +1,262 @@
+
+
+body {
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  
+}
+
+header {
+  background-color: #040F1A; 
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+  letter-spacing: 2px;
+}
+
+header p {  padding-bottom: 10px;
+  margin: 0;
+  font-size: 1.2em;
+  color: #ddd;
+}
+
+nav {
+
+  background-color: #013364; 
+  text-align: center;
+
+}
+
+nav a {
+  margin: 3%;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: bold;
+  
+}
+
+
+@media screen and (max-width: 767px) {
+  nav a {
+      font-size: 1em; 
+  }
+}
+
+
+
+header img {
+  height: 100%;
+}
+header, nav, section#slideshow {
+  margin: 0;
+  padding: 0;
+}
+#nav-bar{
+  padding: 20px;
+}
+
+section {
+  padding: 2em;
+}
+
+section h2 {
+  color: #000000; 
+  font-size: 2.5em;
+  margin-bottom: 20px;
+
+}
+
+section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+    transition: color 0.5s ease-in-out;
+}
+ #servicos li{
+  transition: color 0.5s ease-in-out;
+}
+#servicos li:hover{
+  color: #000000;
+  background-color: #ffffff;
+}
+#servicos  {
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: #3498db;
+  color: #fff; 
+  padding: 20px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+#servicos.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+#lista-servicos{
+  margin: 0 auto;
+  text-align: center;
+ 
+}
+.opcao-servico{
+  margin: 0 auto;
+  margin-top: 10px;
+  max-width:200px;
+  padding: 10px;
+  border-radius: 10px;
+   background-color: #040F1A;
+}
+#servicos ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#servicos {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+#portfolio{
+  background-color: rgb(218, 150, 4);
+  text-align: center;
+  border-radius: 20px;
+}
+#ul-portfolio{
+  padding: 0;
+  margin: 0 ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+#ul-portfolio img{
+  max-width: 600px;
+  border-radius: 20px;
+
+}
+.opcao-portfolio{
+  margin: 0 auto;
+  border-radius: 10px;
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+  background-color: #000000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding: 10px;
+  max-width: 600px;
+}
+.opcao-portfolio a{
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+footer {
+  background-color: #363636; 
+  color: #fff;
+  text-align: center;
+  font-size:0.8em;
+}
+
+header h1 span {
+          background: -webkit-linear-gradient(170deg, rgba(82,242,255,1) 35%, rgba(241,71,255,1) 50%, rgb(255, 255, 255) 60%, rgba(255,203,70,1)100%);
+          -webkit-background-clip: text; 
+          color: transparent; }
+
+#form-duvidas {
+  margin: 0 auto;
+  margin-top: 20px;
+ color: #000000;
+  background-color: #dfdfdfa9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+
+#campo-duvidas {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1em;
+  border: 4px solid #666666;
+  border-radius: 4px;
+
+}
+
+button {
+  background-color: #001f3f; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+#contato{
+  background-color: rgb(150, 150, 150);
+  color: #ffffff;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  
+  text-align: center;
+}
+#contato p{
+  color: black;
+}
+#contato  a{
+ 
+  color: inherit;
+  text-decoration: none;
+}
+#contato > img{
+ text-align: end;
+}
+#campo-contato >button{
+  background-color: white;
+  color: #000000;
+  border-radius: 20px;
+  margin-top: 20px;
+  min-width: 300px;
+  transition: background-color 0.3s ease-in-out;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#campo-contato >button>a>p{
+  font-size: 0.7em;
+}
+#campo-contato >button:hover {
+  background-color: #000000;
+  color: #fcfcfc;
+}
+iframe{
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.mapa{
+  background-color: white;
+  color: #000000;
+  border-radius: 20px;
+  margin-top: 20px;
+  min-width: 300px;
+  transition: background-color 0.3s ease-in-out;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
